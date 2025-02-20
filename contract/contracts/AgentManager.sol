@@ -7,6 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
  * @title AgentManager
  * @dev Contract for managing audit agents registration with suspension capability
  * @notice This contract handles agent registration, suspension and reactivation of agent
+ * TODO: Make contract upgradeable, add reentrancy protection
  */
 contract AgentManager is Ownable {
     struct Agent {
